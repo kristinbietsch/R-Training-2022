@@ -1,0 +1,9 @@
+
+ R basics (update files) tidyverse
+ GGPlot2
+ DHS, MICS, PMA in R
+ APIs
+ Reading PDF Tables
+ Shiny
+ 
+ github

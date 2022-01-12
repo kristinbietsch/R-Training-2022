@@ -1,0 +1,12 @@
+name: FirstShiny
+title: FirstShiny
+username:
+account: kristinbietsch
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3505031
+bundleId: 4140285
+url: https://kristinbietsch.shinyapps.io/FirstShiny/
+when: 1611582239.0446
+asMultiple: FALSE
+asStatic: FALSE
