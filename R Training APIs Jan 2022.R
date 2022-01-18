@@ -42,7 +42,7 @@ surveys <- read.xlsx2("C:/Users/KristinBietsch/files/Desktop/Master DHS Survey L
 # For a specific indicator, we are changing the indicatorID, in the example below "FP_CUSA_W_MOD"
 # You will need to add your key in the blank space after "APIkey="
 # We are requesting all surveys and all breakdowns 
-url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_CUSA_W_MOD&surveyid=all&breakdown=all&perpage=20000&APIkey=AVEHTH-279664")
+url<-("http://api.dhsprogram.com/rest/dhs/data?f=json&indicatorIds=FP_CUSA_W_MOD&surveyid=all&breakdown=all&perpage=20000&APIkey=")
 jsondata<-fromJSON(url) 
 dta<-data.table(jsondata$Data)
 
